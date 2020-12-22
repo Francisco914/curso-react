@@ -1,0 +1,31 @@
+p {
+  margin: 0px;
+}
+
+.container-bageslist {
+  display: grid;
+  grid-template-columns: 20% auto;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  padding: 15px;
+}
+
+.avatar > img {
+  border-radius: 50%;
+}
+
+.name-complete {
+  font-weight: bold;
+}
+
+.twitter > img {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.twitter > p {
+  color: #1da1f2;
+  display: inline-block;
+}
