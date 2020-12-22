@@ -10,7 +10,7 @@ class BadgesList extends React.Component{
                  <li key={badge.id}>
                      <div className="container-bageslist">
                         <div className="avatar">
-                            <img src={badge.avatarUrl}></img>
+                            <img src={badge.avatarUrl} alt="avatar"></img>
                         </div>
                      <div className="info-container">
                         <div className="name-complete">
